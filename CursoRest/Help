@@ -1,0 +1,11 @@
+## DICAS E INFORMAÇÕES
+
+- statusCode 304 significa que o endereço acessado ja está em cache(se não houve mudanças)
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+## FLUXO DE REQUEST E RESPONSE
+
+- Cliente bate(request) no endereço do servidor(80) este servidor retorna(response) para cliente
+- Servidor guarda este endereço de algum servico externo(alguma porta) e mapeia para uma de suas rotas
+- É possivel que cliente acesse o servidor ou acesse diretamente esse servico
